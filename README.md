@@ -44,7 +44,12 @@ This folder contains a Jupyter Notebook file. The python code contained imports 
 
 ## The 'graphs' Folder
 
-Included in this folder is....
+Included in this folder are the following graphs:
+
+* Line graphs displaying the changes in Tourism Spending generated from the Tourism Plotting code
+* Word clouds displaying negative and positive tweet sentiment words
+* Cluster graph of UK cities
+* Line graphs of unemployment rates in different city groups
 
 ## Prerequisites
 
