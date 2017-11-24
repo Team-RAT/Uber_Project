@@ -14,6 +14,8 @@ Included in this folder is all the code written to store and analyse data in thi
 
 #### Tourism Plotting 
 
+This includes a Jupyter Notebook file in which the python code used to create plots of the tourism spending (£million) in regions of the UK are plotted. One graph is plotted to show the tourism spending of towns in which Uber was introduced in 2015 and one for the regions in which Uber was not introduced in 2015 to see the if there is a difference between the two plots, indicating whether or not Uber influences this aspect of a town/city. 
+
 #### Twitter Streamer
 
 #### Reddit Sentiment
@@ -22,7 +24,11 @@ Included in this folder is all the code written to store and analyse data in thi
 
 #### SQL Queries
 
+
+
 #### Unemployment Rates Plotly
+
+
 
 ## The 'graphs' Folder
 
