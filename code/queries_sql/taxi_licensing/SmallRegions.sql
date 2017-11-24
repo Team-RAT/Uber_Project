@@ -1,3 +1,5 @@
+/*Creating a table for the smallest regions in the taxi license data*/
+
 USE [uber_project]
 GO
 
@@ -6,6 +8,8 @@ GO
 
 SELECT
 	   t3.[LA code]
+	   -- replace functon used to cleanse data of commas and numbers
+	   -- assigning column aliases to clean names and distinguish between years
       ,REPLACE(t3.[Column 3], ' 2', '') AS [Licensing Authority Mid Region]
       ,REPLACE(t3.[Wheelchair accessible taxis 4], ',', '') AS [Wheelchair accessible taxis 2013]
       ,REPLACE(t3.["Other  taxis 4"], ',', '') AS [Other  taxis 2013]
@@ -39,6 +43,7 @@ SELECT
       ,REPLACE(t7.[Total licensed vehicles], ',', '') AS [Total licensed vehicles 2017]
 INTO licensing.SmallRegions
 FROM [dbo].[taxi2013] t3
+ -- inner join tables containing data from all years by licensing authority
 INNER JOIN [dbo].[taxi2015] t5
 	ON t3.[LA code] = t5.[LA code]
 INNER JOIN [dbo].[taxi2017] t7

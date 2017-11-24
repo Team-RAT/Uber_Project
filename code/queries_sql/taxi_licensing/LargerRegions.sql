@@ -1,15 +1,19 @@
+/*Creating a table for the larger region taxi license data*/
+
 USE [uber_project]
 GO
 
---CREATE SCHEMA licensing
---Go
+CREATE SCHEMA licensing  -- create a schema for taxi licensing tables
+Go
 
-CREATE TABLE licensing.LargerRegions
+CREATE TABLE licensing.LargerRegions 
 GO
 
 SELECT
 	   t3.[LA code]
-      ,REPLACE(t3.[Licensing Authority], ' 2', '') AS [Licensing Authority 2013]
+	   -- replace functon used to cleanse data of commas and numbers
+	   -- assigning column aliases to clean names and distinguish between years
+      ,REPLACE(t3.[Licensing Authority], ' 2', '') AS [Licensing Authority 2013]  
       ,REPLACE(t3.[Wheelchair accessible taxis 4], ',', '') AS [Wheelchair accessible taxis 2013]
       ,REPLACE(t3.["Other  taxis 4"], ',', '') AS [Other  taxis 2013]
       ,REPLACE(t3.["Total  taxis"], ',', '') AS [Total  taxis 2013]
@@ -42,6 +46,7 @@ SELECT
       ,REPLACE(t7.[Total licensed vehicles], ',', '') AS [Total licensed vehicles 2017]
  INTO licensing.LargerRegions
  FROM [dbo].[taxi2013] t3
+ -- inner join tables containing data from all years by licensing authority
 INNER JOIN [dbo].[taxi2015] t5
 	ON t3.[Licensing Authority] = t5.[Licensing Authority]
 INNER JOIN [dbo].[taxi2017] t7

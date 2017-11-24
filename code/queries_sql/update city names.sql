@@ -1,3 +1,6 @@
+/*Code to adjust city/town names so that the python DataFrame of unemployment rates joins with the SciKit Learn city grouping list */
+
+
 USE [uber_project]
 GO
 
