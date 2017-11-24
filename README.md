@@ -22,7 +22,7 @@ A python based twitter streamer to bring in live Uber-related tweets and create 
 
 #### Reddit Sentiment
 
-Python code written in Jupyter Notebook. Scrapes the reddit pages of UK cities/towns to find comments about Uber.
+Python code written in Jupyter Notebook. Scrapes the reddit pages of UK cities/towns in which Uber is not yet operating to find comments about Uber. The sentiment of such comments in analysed to see whether it is positive or negative. 
 
 #### Cities Clustering 
 
