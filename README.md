@@ -4,6 +4,18 @@ The aim of this project was to answer the question "Is Uber of benefit to cities
 
 Included in this project GitHub is the code created, graphs drawn and data sources used to analyse Uber's impact on UK cities.
 
+## The 'data' Folder
+
+Included in this folder are the excel and csv files of all data sources used in this project, and some additional ones intended for further study.
+
+## The 'code' Folder
+
+Included in this folder is....
+
+## The 'graphs' Folder
+
+Included in this folder is....
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -60,9 +72,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Python](https://www.python.org/) - The language used to create 
-* [Microsoft SQL Server](https://maven.apache.org/) - Dependency Management
-* [MongoDB](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - The language used to create the twitter streamer, reddit scraper and plotly graphs 
+* [Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) - SQL based database used to clean data for unemployment rate data to by imported into python code
+* [MongoDB](https://www.mongodb.com/) - Database used to store results of twitter streamer
 
 ## Authors
 
