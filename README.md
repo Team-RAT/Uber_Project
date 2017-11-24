@@ -18,16 +18,20 @@ This includes a Jupyter Notebook file in which the python code used to create pl
 
 #### Twitter Streamer
 
+A python based twitter streamer to bring in live Uber-related tweets and create 2 word clouds, one based on negative sentiment word count, and one based on positive sentiment word count.
+
 #### Reddit Sentiment
 
 #### Cities Clustering 
+
+A python script written in Jupyter Notebook with the purpose of grouping cities based on economic metrics (taken from data file CityStats.csv). The K-Means method of SciKit Learn is used to group cities into 6 groups. 
 
 #### SQL Queries
 
 Queries were written to clean data of taxi licensing and unemployment rate of UK cities and towns for future use in python files. The files were imported from the data folder of this GitHub. For the Taxi Licensing tables created the following files were imported: 
 * taxi2013.csv
 * taxi2015-.csv
-* tai2017-.csv
+* taxi2017-.csv
 
 And for the unemployment rate table the follwing file was imported:
 * modelbasedunemploymentdata.csv
@@ -40,13 +44,13 @@ This folder contains a Jupyter Notebook file. The python code contained imports 
 
 Included in this folder is....
 
-## Getting Started
+## Prerequisites
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+Python libraries required for code in this project:
+* numpy
+* Twython
+* pandas
+*
 
 ```
 Give examples
