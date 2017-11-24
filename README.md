@@ -22,6 +22,8 @@ A python based twitter streamer to bring in live Uber-related tweets and create 
 
 #### Reddit Sentiment
 
+Python code written in Jupyter Notebook. Scrapes the reddit pages of UK cities/towns to find comments about Uber.
+
 #### Cities Clustering 
 
 A python script written in Jupyter Notebook with the purpose of grouping cities based on economic metrics (taken from data file CityStats.csv). The K-Means method of SciKit Learn is used to group cities into 6 groups. 
