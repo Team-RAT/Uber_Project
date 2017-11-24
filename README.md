@@ -24,11 +24,17 @@ This includes a Jupyter Notebook file in which the python code used to create pl
 
 #### SQL Queries
 
+Queries were written to clean data of taxi licensing and unemployment rate of UK cities and towns for future use in python files. The files were imported from the data folder of this GitHub. For the Taxi Licensing tables created the following files were imported: 
+* taxi2013.csv
+* taxi2015-.csv
+* tai2017-.csv
 
+And for the unemployment rate table the follwing file was imported:
+* modelbasedunemploymentdata.csv
 
 #### Unemployment Rates Plotly
 
-
+This folder contains a Jupyter Notebook file. The python code contained imports the table created in the SQL query unemploymentsql.sql. It uses the groupings created in the Cities Clustering. Plots are created of how unemployment rates change over time for the cities in each group with and without Uber operating within them. 
 
 ## The 'graphs' Folder
 
