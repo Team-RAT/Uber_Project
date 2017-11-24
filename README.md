@@ -56,26 +56,26 @@ Included in this folder are the following graphs:
 Python libraries required for code in this project:
 
 ```
-numpy, matplotlib, plotly, pyodbc, os, re, PIL, pickle, WordCloud, pymongo, twython, vaderSentiment, pprint, urllib, json, pprint, pandasm sklearn
+numpy, matplotlib, plotly, pyodbc, os, re, PIL, pickle, WordCloud, pymongo, twython, vaderSentiment, pprint, urllib, json, pprint, pandas, sklearn
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Install Anaconda Distribution for Python.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+To install python libraries, go into your command prompt and enter the following:
 
 ```
-until finished
+>pip install [library_name]
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+And repeat for all libraries.
+
+To access Jupyter Notebook type:
+
+```
+>jupyter notebook
+```
 
 ## Built With
 
