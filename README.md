@@ -47,13 +47,9 @@ Included in this folder is....
 ## Prerequisites
 
 Python libraries required for code in this project:
-* numpy
-* Twython
-* pandas
-*
 
 ```
-Give examples
+numpy, matplotlib, plotly, pyodbc, os, re, PIL, pickle, WordCloud, pymongo, twython, vaderSentiment, pprint, urllib, json, pprint, pandasm sklearn
 ```
 
 ### Installing
