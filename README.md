@@ -2,6 +2,8 @@
 
 The aim of this project was to answer the question "Is Uber of benefit to cities and if so, which UK city would most benefit from Uber operating there?".
 
+The economic metrics we explored were tourism spending, unemployment rates, and sentiment of people through social media sites. From our analysis we have not managed to prove any benefit in the fields we have explored, so cannot at this time recommend a new city for Uber to move to. 
+
 Included in this project GitHub is the code created, graphs drawn and data sources used to analyse Uber's impact on UK cities.
 
 ## The 'data' Folder
