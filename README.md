@@ -10,7 +10,19 @@ Included in this folder are the excel and csv files of all data sources used in 
 
 ## The 'code' Folder
 
-Included in this folder is....
+Included in this folder is all the code written to store and analyse data in this project the inner folders are listed and explained:
+
+#### Tourism Plotting 
+
+#### Twitter Streamer
+
+#### Reddit Sentiment
+
+#### Cities Clustering 
+
+#### SQL Queries
+
+#### Unemployment Rates Plotly
 
 ## The 'graphs' Folder
 
