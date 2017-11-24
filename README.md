@@ -70,10 +70,6 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Python](https://www.python.org/) - The language used to create the twitter streamer, reddit scraper and plotly graphs 
